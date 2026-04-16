@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color: rgb(76, 92, 185);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100px; 
+    align-items: center;
+
+}
+div{
+    margin: 1% 0 0 0;
+}
+.formulario{
+    color: rgb(76, 92, 185);
+}
+.fila {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 180px; 
+    font-weight: bold;
+}
+
+input {
+    flex: 1;
+    padding: 5px;
+}
+
+.grupo {
+    color: rgb(76, 92, 185);
+    display: flex;
+    flex: 1;
+    width:  180px;
+}
+
+.grupo input{
+    flex: 1;
+    padding: 5px;
+
+}
+
+.grupo select {
+  width: 30px; 
+}
+
+button{
+    background-image: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC);
+    color: white; 
+    padding: 5px 70px; 
+}
+
+.btn{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    
+
+}
