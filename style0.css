@@ -1,8 +1,11 @@
 *{
-    margin: 0%;
+    margin: 0;
     padding: 0%;
-}
 
+}
+body{
+    margin: 0 20% 0 20%;
+}
 header{
     background-color: black;
     color: white;
@@ -53,7 +56,7 @@ input {
 }
 
 .grupo select {
-  width: 30px; 
+    width: 30px; 
 }
 
 button{
